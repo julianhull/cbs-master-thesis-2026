@@ -1,0 +1,32 @@
+# ── Data ─────────────────────────────────────────────
+# Raw inputs (Compustat is licensed; SEC text is large/regenerable)
+data/raw/
+
+# Intermediate processed artefacts (regenerable from raw + notebooks)
+data/processed/
+
+# Note: data/results/ IS committed — those are the actual thesis findings
+
+# ── Figures (regenerable from notebooks) ─────────────
+figures/
+
+# ── Python ───────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+
+# ── macOS ────────────────────────────────────────────
+.DS_Store
+
+# ── Editors ──────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Jupyter ──────────────────────────────────────────
+*.nbconvert.ipynb

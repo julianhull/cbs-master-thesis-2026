@@ -1,0 +1,5 @@
+Lexicon,med_Active,med_Zero,Direction,p_value
+innovation,1.765,0.611,Active>Zero,0.00e+00
+growth,0.48,0.698,Zero>Active,1.87e-144
+positive,0.615,0.48,Active>Zero,8.11e-73
+uncertainty,0.0,0.246,Zero>Active,4.49e-143

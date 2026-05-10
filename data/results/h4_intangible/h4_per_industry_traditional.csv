@@ -1,0 +1,14 @@
+Industry,n,M0,M2,Δ M2-M0,M3,Δ M3-M1,note
+Printing and Publishing,42,99.09,141.06,-42.35,123.93,13.15,
+Non-Metallic Mining,60,53.4,73.52,-37.68,33.4,-27.04,
+Steel Works Etc,117,93.37,124.95,-33.83,106.61,17.09,
+Wholesale,361,83.36,109.87,-31.81,71.33,5.03,
+Apparel,131,75.26,89.98,-19.55,84.8,10.01,
+Retail,544,81.76,95.48,-16.78,79.22,0.71,
+"Restaurants, Hotels, Motels",171,58.44,63.7,-9.0,56.86,7.27,
+Construction,198,101.19,107.32,-6.05,77.75,10.35,
+Food Products,186,57.66,60.86,-5.55,47.93,4.88,
+Beer & Liquor,41,44.02,44.44,-0.95,31.86,21.68,
+Business Supplies,73,101.62,84.25,17.08,75.27,10.89,
+Tobacco Products,8,,,,,,"n<30, skipped"
+Textiles,29,,,,,,"n<30, skipped"

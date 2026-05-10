@@ -1,0 +1,5 @@
+Approach,Weak-M1 stratum,n weak,Δ M3-M1 (weak),p (weak),Δ M3-M1 (strong),p (strong),Gap (pp),Both sig?,Direction
+S1: R&D Binary,R&D-Zero,7873,7.07,0.0,4.01,0.0008,3.06,Y,→ weak helps more
+S4: Size (Q1 vs Q3),Small,4474,-0.01,0.0024,5.17,0.0,-5.18,Y,→ strong helps more
+S5: Earnings Volatility,High Earn-Vol,3669,8.55,0.0,4.53,0.0,4.02,Y,→ weak helps more
+S6: Asset Turnover,High Turnover,6780,5.29,0.0,5.15,0.0,0.14,Y,→ weak helps more

@@ -1,0 +1,7 @@
+Ticker,Year,Industry,Stratum,M0 APE,M1 APE,M2 APE,M3 APE,M3 better than M1?,"Jaccard(M1,M2)",|M1 ∩ M2|,|M1 ∩ M3|,|M2 ∩ M3|
+MSFT,2024,Computer Software,R&D-Active,42.8,35.0,49.7,39.2,✗,0.053,1,7,4
+AAPL,2024,Electronic Equipment,R&D-Active,41.9,13.0,94.7,15.6,✗,0.0,0,7,3
+NVDA,2024,Electronic Equipment,R&D-Active,58.5,43.7,46.9,48.0,✗,0.0,0,7,3
+PFE,2024,Pharmaceutical Products,R&D-Active,62.0,0.6,5.7,6.7,✗,0.0,0,7,3
+JNJ,2024,Pharmaceutical Products,R&D-Active,32.1,9.3,10.0,9.5,✗,0.0,0,7,3
+GOOGL,2024,Computer Software,R&D-Active,19.6,30.0,27.2,1.9,✓,0.0,0,7,3

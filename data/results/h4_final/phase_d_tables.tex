@@ -1,0 +1,31 @@
+\begin{table}[ht]
+\centering
+\caption{Lexicon density (count per 100 words, median) by R\&D disclosure stratum. Innovation lexicon following \citet{bellstam2021innovation}; growth lexicon following \citet{brown2011mda}; positive and uncertainty lexica following \citet{loughran2011liability}. Mann-Whitney U tests across strata yield $p < 10^{-10}$ for the innovation and growth lexica.}
+\label{tab:phase_d1}
+\small
+\begin{tabular}{lr cccc}
+\toprule
+Stratum & $n$ & Innovation & Growth & Positive & Uncertainty \\
+\midrule
+  R\&D-Active   & 5,685 &  1.76 &  0.48 &  0.61 &  0.00 \\
+  R\&D-Zero     & 7,874 &  0.61 &  0.70 &  0.48 &  0.25 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\caption{Per-quadrant MdAPE on $\ln(\textrm{EV}/\textrm{Sales})$ at $k=10$. Quadrants are defined by the cross-tabulation of accounting-based R\&D disclosure (XRD$>$0 vs XRD$=$0) and language-based innovation intensity (lexicon score above vs below sample median). $\Delta$ values report relative MdAPE reduction; one-sided Wilcoxon signed-rank tests; $^{***}p<0.001$, $^{**}p<0.01$, $^{*}p<0.05$.}
+\label{tab:phase_d5}
+\small
+\begin{tabular}{lr cccc cc}
+\toprule
+Quadrant & $n$ & M0 & M1 & M2 & M3 & $\Delta$M2$-$M0 & $\Delta$M3$-$M1 \\
+\midrule
+  XRD>0 / High_Lang         & 4,541 & 51.79\% & 39.48\% & 47.80\% & 37.41\% & +7.70\%\,*** & +5.24\%\,** \\
+  XRD>0 / Low_Lang          & 1,144 & 56.04\% & 44.41\% & 56.75\% & 42.93\% & -1.27\%\,*** & +3.33\%\,n.s. \\
+  XRD=0 / High_Lang         & 2,232 & 64.53\% & 53.09\% & 61.47\% & 49.95\% & +4.74\%\,*** & +5.91\%\,*** \\
+  XRD=0 / Low_Lang          & 5,641 & 53.61\% & 45.12\% & 52.30\% & 41.71\% & +2.44\%\,*** & +7.56\%\,*** \\
+\bottomrule
+\end{tabular}
+\end{table}

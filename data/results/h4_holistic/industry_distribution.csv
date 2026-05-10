@@ -1,0 +1,50 @@
+industry,R&D-Active,R&D-Zero,Total,% R&D-Active
+Banking,15,1491,1506,1.0
+Trading,40,1376,1416,2.8
+Pharmaceutical Products,1077,42,1119,96.2
+Computer Software,946,156,1102,85.8
+Business Services,174,426,600,29.0
+Electronic Equipment,516,36,552,93.5
+Retail,38,506,544,7.0
+Insurance,32,443,475,6.7
+Medical Equipment,456,10,466,97.9
+Machinery,354,58,412,85.9
+Petroleum and Natural Gas,65,329,394,16.5
+Wholesale,18,343,361,5.0
+Utilities,2,355,357,0.6
+Transportation,30,276,306,9.8
+Chemicals,230,59,289,79.6
+Healthcare,64,162,226,28.3
+Construction Materials,129,88,217,59.4
+Measuring and Control Eq.,208,8,216,96.3
+Electrical Equipment,178,25,203,87.7
+Communication,51,150,201,25.4
+Construction,0,198,198,0.0
+Food Products,126,60,186,67.7
+Automobiles and Trucks,168,17,185,90.8
+Consumer Goods,141,42,183,77.0
+"Restaurants, Hotels, Motels",18,153,171,10.5
+Almost Nothing,56,112,168,33.3
+Personal Services,18,138,156,11.5
+Real Estate,16,132,148,10.8
+Apparel,10,121,131,7.6
+Entertainment,12,116,128,9.4
+Steel Works Etc,50,67,117,42.7
+Computers,109,0,109,100.0
+Recreation,68,13,81,84.0
+Business Supplies,45,28,73,61.6
+Aircraft,56,7,63,88.9
+Non-Metallic Mining,4,56,60,6.7
+Agriculture,10,33,43,23.3
+Printing and Publishing,5,37,42,11.9
+Beer & Liquor,11,30,41,26.8
+Shipping Containers,26,14,40,65.0
+Rubber and Plastic Products,24,14,38,63.2
+Defense,29,8,37,78.4
+Coal,0,36,36,0.0
+"Shipbuilding, Railroad Eq.",25,10,35,71.4
+Candy & Soda,8,26,34,23.5
+Precious Metals,0,32,32,0.0
+Textiles,15,14,29,51.7
+Fabricated Products,10,14,24,41.7
+Tobacco Products,2,7,9,22.2

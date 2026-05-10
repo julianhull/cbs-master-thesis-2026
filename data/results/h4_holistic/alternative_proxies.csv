@@ -1,0 +1,7 @@
+Specification,Stratum,n,M0,M1,M2,M3,Δ M2-M0,Δ M3-M1,p (M2),p (M3)
+CapEx intensity,High CapEx,6780,52.87,42.24,50.74,40.06,4.02,5.17,0.0,0.0
+CapEx intensity,Low CapEx,6778,57.72,45.92,53.92,42.6,6.57,7.21,0.0,0.0
+Market-to-book,High M/B (growth),6780,49.38,37.14,46.91,36.02,5.01,3.02,0.0,0.0
+Market-to-book,Low M/B (value),6778,65.8,56.64,62.17,53.16,5.52,6.15,0.0,0.0
+Asset turnover,High turnover,6780,82.47,67.5,80.34,63.93,2.58,5.29,0.0,0.0
+Asset turnover,Low turnover,6778,38.09,29.3,35.28,27.79,7.39,5.15,0.0,0.0

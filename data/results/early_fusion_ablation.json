@@ -1,0 +1,35 @@
+{
+  "method": "early_fusion_832dim_cosine_knn",
+  "description": "Early fusion ablation: concatenate 64-dim z-normalised financial feature vector with 768-dim L2-normalised FinBERT mean-pool embedding, then run cosine kNN with k=10 on the resulting 832-dim representation. Restricted to the 13,559-firm-year evaluation sample. MdAPE computed with the N9 evaluation function: ape = |actual - predicted| / |actual| on log-multiples.",
+  "sample": "evaluation_sample_only",
+  "validation_years": [
+    2020,
+    2021,
+    2022
+  ],
+  "k": 10,
+  "multiple": "ln_v2s",
+  "n_paired": 7944,
+  "mdape_pct": {
+    "M1_financial": 43.234,
+    "early_fusion": 43.029,
+    "M2_text": 51.075,
+    "late_fusion_wr": 40.674
+  },
+  "norm_share_squared_l2": {
+    "financial": 0.959,
+    "text": 0.041
+  },
+  "wilcoxon_late_vs_early": {
+    "alternative": "less (APE_LateWR < APE_Early)",
+    "statistic": 14349983.0,
+    "p_value": 1.3608103533002438e-12
+  },
+  "reconciliation_check": {
+    "M1_via_N9_function": 43.234,
+    "M1_in_alpha_optimal_json": 43.234,
+    "late_via_N9_function": 40.674,
+    "late_in_alpha_optimal_json": 40.674
+  },
+  "notes": "Reproduces the early-vs-late fusion ablation from N9 cells 19-20, which errored on sklearn import in the original run. Evaluation function matches N9 exactly so numbers are consistent with alpha_optimal.json and the rest of the thesis. Replaces any earlier ad-hoc figure (e.g. 43.03%)."
+}

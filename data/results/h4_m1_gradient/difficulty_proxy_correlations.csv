@@ -1,0 +1,5 @@
+,M0 error,M1 error,Industry-year dispersion,VDI composite
+M0 error,1.0,0.58,0.074,0.127
+M1 error,0.58,1.0,-0.01,0.075
+Industry-year dispersion,0.074,-0.01,1.0,0.644
+VDI composite,0.127,0.075,0.644,1.0

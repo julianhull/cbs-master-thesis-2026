@@ -1,0 +1,10 @@
+Approach,Stratum,n,M0 MdAPE,M1 MdAPE,M2 MdAPE,M3 MdAPE,Δ M1 vs M0,Δ M2 vs M0,Δ M3 vs M1,p (M3>M1),p (M2>M0)
+S1: R&D Binary,R&D-Active,5685,52.58,40.07,49.39,38.47,23.79,6.07,4.01,0.0008,0.0
+S1: R&D Binary,R&D-Zero,7873,56.97,47.33,54.9,43.98,16.93,3.63,7.07,0.0,0.0
+S2: R&D Intensity,High R&D/Sales,13558,54.79,43.75,51.9,41.13,20.15,5.27,6.0,0.0,0.0
+S4: Size (Q1 vs Q3),Small,4474,73.55,59.53,70.91,59.53,19.07,3.59,-0.01,0.0024,0.0
+S4: Size (Q1 vs Q3),Large,4475,46.16,35.93,43.82,34.07,22.17,5.07,5.17,0.0,0.0
+S5: Earnings Volatility,High Earn-Vol,3669,63.4,55.35,63.49,50.61,12.7,-0.13,8.55,0.0,0.0
+S5: Earnings Volatility,Low Earn-Vol,9889,52.11,40.21,49.43,38.39,22.83,5.14,4.53,0.0,0.0
+S6: Asset Turnover,Low Turnover,6778,38.09,29.3,35.28,27.79,23.07,7.39,5.15,0.0,0.0
+S6: Asset Turnover,High Turnover,6780,82.47,67.5,80.34,63.93,18.15,2.58,5.29,0.0,0.0

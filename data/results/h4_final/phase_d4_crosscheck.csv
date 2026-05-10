@@ -1,0 +1,5 @@
+quadrant,n,n_firms,median_xrd,median_innov_lang,median_market_cap,pct_of_sample
+XRD=0 / High_Lang,2233,893,0.0,1.57,2079.03,16.47
+XRD=0 / Low_Lang,5641,1626,0.0,0.45,1529.56,41.6
+XRD>0 / High_Lang,4541,1430,66.61,2.01,2110.75,33.49
+XRD>0 / Low_Lang,1144,550,48.94,0.72,2465.06,8.44

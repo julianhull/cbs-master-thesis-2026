@@ -1,0 +1,8 @@
+Spec,High stratum,n high,M0 high,M2 high,Δ M2 high,Δ M3 high,Low stratum,n low,M0 low,M2 low,Δ M2 low,Δ M3 low,Δ M2 contrast (pp),Δ M3 contrast (pp)
+FF49 Innovation/Traditional (proper run),FF49 Innovation (curated list),4365,45.29,43.39,4.19,4.13,FF49 Traditional (curated list),1961,83.36,93.36,-12.0,3.57,16.19,0.56
+IIS tercile (full sample),Intangible-Heavy,4521,46.41,42.61,8.17,4.49,Tangible-Heavy,4520,66.14,64.64,2.27,6.92,5.9,-2.43
+IIS tercile (non-financials),Intangible-Heavy,3338,52.54,50.03,4.78,3.82,Tangible-Heavy,3339,65.65,63.7,2.96,6.13,1.82,-2.31
+IIS quintile extremes (full),Intangible-Extreme (Q5),2713,42.96,39.71,7.56,2.34,Tangible-Extreme (Q1),2715,61.47,58.18,5.35,4.82,2.21,-2.48
+IIS quintile extremes (non-fin),"Intangible-Extreme (Q5, non-fin)",2004,52.69,48.03,8.84,4.85,"Tangible-Extreme (Q1, non-fin)",2005,57.63,55.3,4.04,3.39,4.8,1.46
+2x2 (Asset-light × R&D-active),Innovation Regime (Asset-Light × R&D-Active),2582,43.76,42.33,3.25,4.72,Traditional Regime (Asset-Heavy × R&D-Zero),4124,57.72,57.06,1.13,8.33,2.12,-3.61
+Strict (FF49 ∩ firm-level),Strict Innovation (FF49 ∩ Asset-Light × R&D-Active),1986,39.88,40.02,-0.36,3.64,Strict Traditional (FF49 ∩ Asset-Heavy × R&D-Zero),1249,81.83,95.04,-16.15,5.61,15.79,-1.97

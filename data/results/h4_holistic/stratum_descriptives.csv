@@ -1,0 +1,17 @@
+Stratum,Variable,n,Mean,Median,P25,P75
+R&D-Active,Market cap ($M),5685,24491.078,2189.008,476.724,8872.62
+R&D-Active,Sales ($M),5685,6353.341,717.301,122.312,3095.2
+R&D-Active,Total assets ($M),5685,10194.909,1232.569,328.834,5026.54
+R&D-Active,R&D / Sales,5685,12.84,0.098,0.024,0.28
+R&D-Active,CapEx / Sales,5685,0.885,0.031,0.016,0.063
+R&D-Active,Market-to-Book,5685,18.138,3.496,1.936,6.935
+R&D-Active,Asset turnover,5685,0.63,0.563,0.324,0.841
+R&D-Active,Net income ($M),5685,704.688,5.401,-58.351,206.3
+R&D-Zero,Market cap ($M),7874,10396.336,1656.348,426.223,5934.714
+R&D-Zero,Sales ($M),7874,6788.109,1039.988,260.926,4009.446
+R&D-Zero,Total assets ($M),7874,24999.902,3178.961,1069.386,10658.275
+R&D-Zero,R&D / Sales,7874,0.0,0.0,0.0,0.0
+R&D-Zero,CapEx / Sales,7874,0.112,0.018,0.005,0.052
+R&D-Zero,Market-to-Book,7874,8.469,1.638,1.036,3.208
+R&D-Zero,Asset turnover,7874,0.658,0.356,0.097,0.976
+R&D-Zero,Net income ($M),7874,505.686,66.52,7.015,324.851

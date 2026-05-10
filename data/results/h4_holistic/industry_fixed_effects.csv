@@ -1,0 +1,6 @@
+Specification,Dependent,n,IY-FE groups,Controls,R&D coef (pp),SE (cluster),95% CI,t-stat,p-value,sig,R-sq
+"(1) Delta M3-M1, industry-year FE only","D (M3 - M1), pp (winsorised)","13,538",236,None,13.34,3.579,"[6.32, 20.36]",3.73,0.0002,***,0.0363
+"(2) Delta M3-M1, FE + size controls","D (M3 - M1), pp (winsorised)","13,538",236,"log_mktcap, log_at",12.948,3.631,"[5.83, 20.07]",3.57,0.0004,***,0.0364
+"(3) Delta M3-M1, FE + size + M1 baseline","D (M3 - M1), pp (winsorised)","13,538",236,"log_mktcap, log_at, m1_baseline_pp",10.673,3.445,"[3.92, 17.42]",3.1,0.0019,**,0.1168
+"(4) Delta M2-M0, industry-year FE only","D (M2 - M0), pp (winsorised)","13,538",236,None,47.09,9.59,"[28.29, 65.89]",4.91,0.0000,***,0.0726
+"(5) Delta M2-M0, FE + size controls","D (M2 - M0), pp (winsorised)","13,538",236,"log_mktcap, log_at",43.024,9.637,"[24.14, 61.91]",4.46,0.0000,***,0.0741

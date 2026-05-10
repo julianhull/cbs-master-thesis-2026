@@ -1,0 +1,5 @@
+,s1_rd_binary,s2_rd_intensity,s5_earn_vol,s6_asset_turn
+s1_rd_binary,1.0,,0.01,0.166
+s2_rd_intensity,,1.0,,
+s5_earn_vol,0.01,,1.0,0.057
+s6_asset_turn,0.166,,0.057,1.0

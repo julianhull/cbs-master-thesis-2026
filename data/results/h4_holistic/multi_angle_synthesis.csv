@@ -1,0 +1,14 @@
+Angle,Stratum,n,Δ M2-M0,Δ M3-M1
+Headline R&D Binary,R&D-Active,5685,6.07,4.01
+Headline R&D Binary,R&D-Zero,7873,3.63,7.07
+Industry-aggregated,Industry: ≥80% R&D-Active,4364,-2.55,8.93
+Industry-aggregated,Industry: ≤20% R&D-Active,6291,-6.53,7.3
+R&D dose-response,Q0 (R&D-Zero),7873,3.63,7.07
+R&D dose-response,Q1 (lowest),1137,0.81,4.88
+R&D dose-response,Q5 (highest),1137,16.49,-4.2
+Alternative: CapEx intensity,High CapEx,6780,4.02,5.17
+Alternative: CapEx intensity,Low CapEx,6778,6.57,7.21
+Alternative: Market-to-book,High M/B (growth),6780,5.01,3.02
+Alternative: Market-to-book,Low M/B (value),6778,5.52,6.15
+Alternative: Asset turnover,High turnover,6780,2.58,5.29
+Alternative: Asset turnover,Low turnover,6778,7.39,5.15
