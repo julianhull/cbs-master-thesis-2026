@@ -30,15 +30,17 @@ jupyter notebook notebooks/N4_multiples.ipynb         # ~2 min
 jupyter notebook notebooks/N5_m0_baseline.ipynb       # ~2 min  (restricted to eval sample)
 jupyter notebook notebooks/N6_knn_financial.ipynb     # ~5 min  (restricted to eval sample)
 jupyter notebook notebooks/N7_embeddings.ipynb        # ~45 min (GPU recommended)
+jupyter notebook notebooks/N7b_ablation.ipynb         # optional — embedding model ablation
 jupyter notebook notebooks/N8_knn_text.ipynb          # ~15 min
 jupyter notebook notebooks/N9_fusion.ipynb            # ~5 min
-jupyter notebook notebooks/N10_evaluation.ipynb       # ~20 min — all results here
+jupyter notebook notebooks/N10_evaluation.ipynb       # ~20 min — all H1/H2/H3 results + robustness
+jupyter notebook notebooks/N11_h4.ipynb               # ~10 min — H4 disclosure-regime analysis
 jupyter notebook notebooks/N0_eda_complete.ipynb      # ~10 min — all EDA figures
 ```
 
 N3, N4, N5, and N6 can all run in parallel once N1 + N2 are complete.
-N7 requires N3. N8 requires N7. N9 requires N6 + N8.
-N10 requires N4 + N5 + N6 + N8 + N9.
+N7 requires N3. N7b requires N7. N8 requires N7. N9 requires N6 + N8.
+N10 requires N4 + N5 + N6 + N8 + N9. N11 requires N10.
 
 **Important:** N5 and N6 restrict the peer universe to the evaluation sample
 (firms with valid Gemini summaries) to ensure all four models are compared on
@@ -88,9 +90,11 @@ thesis/
 │   ├── N5_m0_baseline.ipynb
 │   ├── N6_knn_financial.ipynb
 │   ├── N7_embeddings.ipynb
+│   ├── N7b_ablation.ipynb          ← embedding model ablation (supplementary)
 │   ├── N8_knn_text.ipynb
 │   ├── N9_fusion.ipynb
-│   └── N10_evaluation.ipynb
+│   ├── N10_evaluation.ipynb
+│   └── N11_h4.ipynb                ← H4 disclosure-regime analysis
 │
 ├── src/
 │   ├── evaluation.py           ← MdAPE, MAPE, bootstrap CI
@@ -178,9 +182,11 @@ narrowing at k=5 (1.1pp) and k=20 (0.5pp).
 | N5 M0 baseline | ✅ Complete | peers_m0.parquet (eval sample) |
 | N6 kNN financial | ✅ Complete | peers_m1.parquet (eval sample) |
 | N7 embeddings | ✅ Complete | text_embeddings.parquet |
+| N7b ablation | ✅ Complete | ablation comparison figures (supplementary) |
 | N8 kNN text | ✅ Complete | peers_m2.parquet |
 | N9 fusion | ✅ Complete | peers_m3.parquet, peers_m3_rrf.parquet, alpha_optimal.json |
-| N10 evaluation | ✅ Complete | results_main.csv + all thesis figures |
+| N10 evaluation | ✅ Complete | results_main.csv + all thesis figures + n10_robustness_checks.csv |
+| N11 H4 | ✅ Complete | h4_final/ CSVs, h4_tables.tex, h4_*.pdf, h4_firm_level_analysis.csv |
 
 ---
 

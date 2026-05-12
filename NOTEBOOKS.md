@@ -5,8 +5,8 @@
 UNIVERSAL HEADER — paste as first 3 cells in EVERY notebook
 ================================================================================
 
-# Cell 1 — imports & config (robust version)
-import subprocess, sys
+# Cell 1 — imports & config
+import sys
 from pathlib import Path
 
 notebook_dir = Path('__file__').parent if '__file__' in dir() else Path.cwd()
@@ -22,8 +22,7 @@ from config import *
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-print("Config loaded.")
+print('Config loaded.')
 
 # Cell 2 — declare I/O (makes dependencies explicit)
 # INPUTS  = [...]
