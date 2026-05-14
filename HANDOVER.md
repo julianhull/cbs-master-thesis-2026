@@ -3,7 +3,7 @@
 **Title:** Multimodal Peer Identification for Relative Valuation:
 Fusing Financial Ratios and LLM-Condensed 10-K Disclosures
 
-**Author:** Julian Hüllstrunk
+**Authors:** Julian Hüllstrunk & Moritz Landau
 **Programme:** MSc Finance & Strategic Management, Copenhagen Business School
 **Year:** 2026
 
@@ -185,4 +185,5 @@ Figures are named by the notebook that produces them:
 ## Contact
 
 Julian Hüllstrunk — julian.huellstrunk@gmail.com
+Moritz Landau
 GitHub: https://github.com/julianhull/cbs-master-thesis-2026

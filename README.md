@@ -209,7 +209,7 @@ Figures are not tracked in this repository (regenerable). To produce all thesis 
 
 ## Citation
 
-> Hüllstrunk, J. (2026). "Multimodal Peer Identification for Relative Valuation:
+> Hüllstrunk, J. & Landau, M. (2026). "Multimodal Peer Identification for Relative Valuation:
 > Fusing Financial Ratios and LLM-Condensed 10-K Disclosures."
 > CBS Master's Thesis.
 > Replication: https://github.com/julianhull/cbs-master-thesis-2026
