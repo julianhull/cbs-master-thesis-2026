@@ -1,5 +1,6 @@
-# Peer Identification via Financial Ratios, LLM-Condensed Text & Late Fusion
-## CBS Master's Thesis — Replication Repository
+# Multimodal Peer Identification for Relative Valuation
+## Fusing Financial Ratios and LLM-Condensed 10-K Disclosures
+### CBS Master's Thesis — Replication Repository
 
 > Does integrating LLM-condensed 10-K textual similarity with financial ratio
 > similarity improve peer identification accuracy relative to FF49 industry
@@ -170,6 +171,12 @@ narrowing at k=5 (1.1pp) and k=20 (0.5pp).
 
 ---
 
+## Figures
+
+Figures are not tracked in this repository (regenerable). To produce all thesis figures, run the notebooks in order — they save PDFs to `figures/` automatically. Estimated total runtime: ~3–4 hours (dominated by N3 Gemini API calls and N7 FinBERT inference).
+
+---
+
 ## Pipeline Status
 
 | Notebook | Status | Output |
@@ -202,5 +209,9 @@ narrowing at k=5 (1.1pp) and k=20 (0.5pp).
 
 ## Citation
 
-> [Authors], "[Title]", CBS Master's Thesis, 2025.
+> Hüllstrunk, J. (2026). "Multimodal Peer Identification for Relative Valuation:
+> Fusing Financial Ratios and LLM-Condensed 10-K Disclosures."
+> CBS Master's Thesis.
+> Replication: https://github.com/julianhull/cbs-master-thesis-2026
+>
 > Core framework: Bhojraj & Lee (2002), Hoberg & Phillips (2016), Geertsema & Lu (2023)
